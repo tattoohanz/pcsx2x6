@@ -259,6 +259,9 @@
     <Filter Include="System\Ps2\USB\usb-lightgun">
       <UniqueIdentifier>{b8542664-8208-48ad-bd47-425a316f293c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="System\Ps2\USB\usb-pegasus">
+      <UniqueIdentifier>{6b0b7c1e-3f5a-4a21-9c2e-8d4f0a7e5b13}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Misc\Input">
       <UniqueIdentifier>{aa9a3402-0b59-4e60-8d53-b77f509bf081}</UniqueIdentifier>
     </Filter>
@@ -1247,6 +1250,9 @@
     <ClCompile Include="USB\usb-lightgun\guncon2.cpp">
       <Filter>System\Ps2\USB\usb-lightgun</Filter>
     </ClCompile>
+    <ClCompile Include="USB\usb-pegasus\usb-pegasus.cpp">
+      <Filter>System\Ps2\USB\usb-pegasus</Filter>
+    </ClCompile>
     <ClCompile Include="StateWrapper.cpp">
       <Filter>System</Filter>
     </ClCompile>
@@ -2222,6 +2228,9 @@
     </ClInclude>
     <ClInclude Include="USB\usb-lightgun\guncon2.h">
       <Filter>System\Ps2\USB\usb-lightgun</Filter>
+    </ClInclude>
+    <ClInclude Include="USB\usb-pegasus\usb-pegasus.h">
+      <Filter>System\Ps2\USB\usb-pegasus</Filter>
     </ClInclude>
     <ClInclude Include="StateWrapper.h">
       <Filter>System</Filter>
